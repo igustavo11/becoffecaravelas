@@ -59,6 +59,13 @@ var MENU = {
             "dsc": "cappuccino italiano",
             "price": 12.00
 
+        },
+        {
+            "id": "Capuccino nutella",
+            "img": "",
+            "name": "Capuccino nutella",
+            "dsc": "cappuccino nutella",
+            "price": 16.00
         }
         
 
@@ -69,7 +76,14 @@ var MENU = {
             "img": "./img/cardapio/chocolate quente/Chocolate-Quente.png",
             "name": "Chocolate Quente",
             "dsc": "chocolate quente",
-            "price": 15.00
+            "price": 14.00
+        },
+        {
+            "id": "chocolate becoffe",
+            "img": "",
+            "name": "Chocolate Bê coffee",
+            "dsc": "chocolate quente",
+            "price": 16.00
         }
 
     ],
@@ -164,6 +178,12 @@ var MENU = {
             "name": "Quibe artesanal",
             "dsc": "Quibe artesanal",
             "price": 14.00
+        },{
+            "id": "paodequeijo",
+            "img": "",
+            "name": "Pão de queijo",
+            "dsc": "pao de queijo",
+            "price": 7.00
         }
         
     ],

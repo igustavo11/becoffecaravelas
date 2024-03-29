@@ -39,12 +39,12 @@ cardapio.metodos ={
             .replace(/\${id}/g, e.id)
             // botao ver mais clicado 12 itens
 
-            if(vermais && i >= 3 && i < 12){
+            if(vermais && i >= 4 && i < 12){
                 $("#itensCardapio").append(temp)
 
             }
             // pag inicial 8 itens
-            if(!vermais && i < 3) {
+            if(!vermais && i < 4) {
                 $("#itensCardapio").append(temp)
 
             }

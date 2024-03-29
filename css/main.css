@@ -24,7 +24,7 @@
 html, body{
     font-family: 'PoppinsRegular', 'Rubik';
     background-color: var(--color-backgorund);
-    color: var(--color-text);
+    color: var(--color-black-heavy);
 }
 b{
     font-family: 'PoppinsMedium', 'Rubik';
