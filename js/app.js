@@ -71,7 +71,7 @@ cardapio.metodos ={
    
 
     carregarBotaoReserva : ()=>{
-        var texto = 'Olá gostaria de fazer uma *reserva*';
+        var texto = 'Olá gostaria de fazer uma *reserva* na cafeteria';
 
 
         let encode = encodeURI(texto);
