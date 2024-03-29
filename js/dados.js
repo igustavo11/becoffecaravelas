@@ -141,7 +141,7 @@ var MENU = {
             "img": "./img/cardapio/salgados/camaraocaravelas2.png",
             "name": "Camarão Caravelas",
             "dsc": "Camarao Caravelas",
-            "price": 14.00
+            "price": 17.00
         },
         {
             "id": "Coxinha",
