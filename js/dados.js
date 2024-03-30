@@ -62,7 +62,7 @@ var MENU = {
         },
         {
             "id": "Capuccino nutella",
-            "img": "",
+            "img": "./img/cardapio/cappuccinos/cappuccino-nutella.png",
             "name": "Capuccino nutella",
             "dsc": "cappuccino nutella",
             "price": 16.00
@@ -80,7 +80,7 @@ var MENU = {
         },
         {
             "id": "chocolate becoffe",
-            "img": "",
+            "img": "./img/cardapio/chocolate quente/chocolatebecoffee.png",
             "name": "Chocolate Bê coffee",
             "dsc": "chocolate quente",
             "price": 16.00
