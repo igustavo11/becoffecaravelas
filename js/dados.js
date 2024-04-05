@@ -114,7 +114,7 @@ var MENU = {
     "toasts":[
         {
             "id": "toasts",
-            "img": " ",
+            "img": "./img/cardapio/toasts/toast-chapa.png ",
             "name": "Toast na Chapa",
             "dsc": "toast",
             "price": 5.00
@@ -128,7 +128,7 @@ var MENU = {
         },
         {
             "id": "toasts",
-            "img": "",
+            "img": "./img/cardapio/toasts/toastsovos.png",
             "name": "Ovos mexidos e bacon",
             "dsc": "toasts",
             "price": 12.00
