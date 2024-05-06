@@ -76,7 +76,7 @@ var MENU = {
             "img": "./img/cardapio/chocolate quente/Chocolate-Quente.png",
             "name": "Chocolate Quente",
             "dsc": "chocolate quente",
-            "price": 14.00
+            "price": 15.00
         },
         {
             "id": "chocolate becoffe",
