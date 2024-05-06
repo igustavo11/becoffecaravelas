@@ -83,7 +83,7 @@ var MENU = {
             "img": "./img/cardapio/chocolate quente/chocolatebecoffee.png",
             "name": "Chocolate Bê coffee",
             "dsc": "chocolate quente",
-            "price": 16.00
+            "price": 17.00
         }
 
     ],
@@ -93,7 +93,7 @@ var MENU = {
             "img": "./img/cardapio/bebidas geladas/Cappuccino-Gelado.png",
             "name": "Cappuccino Gelado",
             "dsc": "Cappuccino-Gelado",
-            "price": 16.00
+            "price": 17.00
         },
         {
             "id": "Frapê",
@@ -124,7 +124,7 @@ var MENU = {
             "img": "",
             "name": "Queijo especial",
             "dsc": "toasts",
-            "price": 8.00
+            "price": 9.00
         },
         {
             "id": "toasts",
@@ -170,7 +170,7 @@ var MENU = {
             "img": "./img/cardapio/salgados/Porção-de-canudinho.png",
             "name": "Porção de canudinho",
             "dsc": "Porção-de-canudinho",
-            "price": 10.00
+            "price": 11.00
         },
         {
             "id": "Quibe-artesanal",
@@ -285,14 +285,14 @@ var MENU = {
             "img": "./img/cardapio/Doces/banana-real2.png",
             "name": "Banana real",
             "dsc": "banana-real",
-            "price": 8.00
+            "price": 9.00
         },
         {
             "id": "palha-italiana",
             "img": "./img/cardapio/Doces/palha-italiana2.png",
             "name": "Palha Italiana",
             "dsc": "palha-italiana",
-            "price": 8.00
+            "price": 9.00
         },
         {
             "id": "docinho",
