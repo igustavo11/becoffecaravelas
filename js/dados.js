@@ -207,10 +207,24 @@ var MENU = {
         {
             "id": "Tapioca",
             "img": "./img/cardapio/tapiocas/Tapioca.png",
-            "name": "3 ingredientes(acrecimos consultar)",
+            "name": "3 ingredientes(acrecimos )",
             "dsc": "tapioca",
             "price": 15.00
             
+        },
+        {
+            "id": "Tapioca",
+            "img": "./img/cardapio/tapiocas/Tapioca.png",
+            "name": "Acréscimo carne seca",
+            "dsc": "tapioca",
+            "price": 2.00
+        },
+        {
+            "id": "Tapioca",
+            "img": "./img/cardapio/tapiocas/Tapioca.png",
+            "name": "Acréscimo ingrediente",
+            "dsc": "tapioca",
+            "price": 1.00
         }
 
         
