@@ -180,7 +180,7 @@ var MENU = {
             "price": 14.00
         },{
             "id": "paodequeijo",
-            "img": "",
+            "img": "/img/cardapio/salgados/paodequeijo.png",
             "name": "Pão de queijo",
             "dsc": "pao de queijo",
             "price": 7.00
@@ -232,11 +232,19 @@ var MENU = {
         },
         {
             "id": "Torta-holandesa",
-            "img": "./img/cardapio/tortas/Torta-holandesa.png",
+            "img": "./img/cardapio/tortas/tortaholandesa.png",
             "name": "Torta holandesa",
             "dsc": "Torta-holandesa",
             "price": 18.00
         },
+        {
+            "id": "Tortamaracuja",
+            "img": "./img/cardapio/tortas/tortamaracuja.png",
+            "name": "Torta de maracujá",
+            "dsc": "torta de maracuja",
+            "price": 18.00
+        }
+
 
         
     ],
