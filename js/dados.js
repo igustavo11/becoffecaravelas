@@ -342,5 +342,36 @@ var MENU = {
         }
         
     ],
+    "caldos": [
+        {
+            "id": "caldo-verde",
+            "img": "./img/cardapio/caldos/caldoverde.png",
+            "name": "Caldo verde",
+            "dsc": "caldo verde",
+            "price": 20.00
+        },
+        {
+            "id": "pela-egua",
+            "img": "./img/cardapio/caldos/pela egua.png",
+            "name": "Pela Égua",
+            "dsc": "pelaegua",
+            "price": 20.00
+        },
+        {
+            "id": "VacaAtolada",
+            "img": "./img/cardapio/caldos/vacaatolada.png",
+            "name": "Vaca atolada",
+            "dsc": "Refrigerante-latas",
+            "price": 20.00
+        },
+        {
+            "id": "feijoadinha",
+            "img": "./img/cardapio/caldos/.png",
+            "name": "Feijoadinha",
+            "dsc": "feijoadinha",
+            "price": 20.00
+        }
+        
+    ],
     
 }
