@@ -366,7 +366,7 @@ var MENU = {
         },
         {
             "id": "feijoadinha",
-            "img": "./img/cardapio/caldos/.png",
+            "img": "",
             "name": "Feijoadinha",
             "dsc": "feijoadinha",
             "price": 20.00
