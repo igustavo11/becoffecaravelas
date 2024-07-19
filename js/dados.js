@@ -350,7 +350,14 @@ var MENU = {
         }
         
     ],
-    "caldos": [
+    "pratos": [
+        {
+            "id": "camarao-internacional",
+            "img": "./img/cardapio/caldos/camaraoint.png",
+            "name": "Camarão internacional",
+            "dsc": "camarao internacional",
+            "price": 39.90
+        },
         {
             "id": "caldo-verde",
             "img": "./img/cardapio/caldos/caldoverde.png",
@@ -378,7 +385,7 @@ var MENU = {
             "name": "Feijoadinha",
             "dsc": "feijoadinha",
             "price": 20.00
-        }
+        },
         
     ],
     
