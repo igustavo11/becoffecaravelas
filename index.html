@@ -173,7 +173,9 @@
                     <span class="hint-title"><b>Cardápio</b></span>
                     <h1 class="title">
                         <b>Conheça nosso cardápio</b>
+                        
                     </h1>
+                    <p>clique em nossos produtos para saber mais</p>
                 </div>
                 <div class="col-12 col-one container-menu wow fadeInUp" >
                     <a id="menu-cafe" class="btn btn-white btn-sm mr-3 active" onclick="cardapio.metodos.obterItensCardapio('cafe')">
@@ -196,7 +198,7 @@
                     </a>
                    
                     <a id="menu-toats" class="btn btn-white btn-sm mr-3" onclick="cardapio.metodos.obterItensCardapio('toasts')">
-                        <i class="fas fa-bacon"></i>&nbsp;Toasts
+                        <i class="fas fa-bacon"></i>&nbsp;Pão na chapa
                     </a>
                     <a id="menu-salgados" class="btn btn-white btn-sm mr-3" onclick="cardapio.metodos.obterItensCardapio('salgados')">
                         <i class="fas fa-hamburger"></i>&nbsp;Salgados
@@ -229,7 +231,14 @@
             </div>
         </div>
     </section>
-
+    <div id="modalItem" class="modal">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <img id="modalImg" src="" alt="">
+            <h2 id="modalName"></h2>
+            <p id="modalDesc"></p>
+        </div>
+    </div>
     <section class="depoimentos" id="depoimentos">
         <div class="background-depoimentos"></div>
 

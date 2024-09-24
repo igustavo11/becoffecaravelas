@@ -2,6 +2,17 @@ $(document).ready(function(){
     cardapio.eventos.init();
 
 })
+
+$(document).on('click', '.close', function () {
+    $('#modalItem').css('display', 'none');
+});
+
+$(window).on('click', function (event) {
+    if ($(event.target).is('#modalItem')) {
+        $('#modalItem').css('display', 'none');
+    }
+});
+
 var cardapio = {};
 
 
@@ -34,10 +45,19 @@ cardapio.metodos ={
         $.each(filtro, (i, e)=>{
             
             let temp = cardapio.templates.item.replace(/\${img}/g, e.img)
-            .replace(/\${name}/g, e.name)
-            .replace(/\${price}/g, e.price.toFixed(2).replace('.',','))
-            .replace(/\${id}/g, e.id)
-            // botao ver mais clicado 12 itens
+                .replace(/\${name}/g, e.name)
+                .replace(/\${price}/g, e.price.toFixed(2).replace('.', ','))
+                .replace(/\${id}/g, e.id)
+                .replace(/\${dsc}/g, e.dsc); 
+
+            //  evento de clique para abrir a modal
+            $(document).on('click', `#${e.id}`, function () {
+                $('#modalImg').attr('src', e.img);
+                $('#modalName').text(e.name);
+                $('#modalDesc').text(e.dsc);
+                $('#modalItem').css('display', 'block');
+            });
+
 
             if(vermais && i >= 4 && i < 12){
                 $("#itensCardapio").append(temp)
@@ -48,6 +68,8 @@ cardapio.metodos ={
                 $("#itensCardapio").append(temp)
 
             }
+
+            
             
           
 
@@ -59,6 +81,7 @@ cardapio.metodos ={
         $("#menu-"+ categoria).addClass('active')
 
     },
+    
     //botao ver mais
     verMais : () => {
 
@@ -114,7 +137,6 @@ cardapio.metodos ={
 
 
 
-
     //mensagens
     mensagem :(texto, cor = 'red', tempo = 3500)=> {
 
@@ -136,23 +158,33 @@ cardapio.metodos ={
     }
 
 }
+
 cardapio.templates = {
     item: ` 
-            <div class="col-12 col-lg-3 col-md-3 col-sm-6  mb-5 animated fadeInUp">
-            <div class="card card-item" id="\${id}">
-                <div class="img-produto">
-                    <img src="\${img}" alt="">
-                </div>
-                <p class="title-produto text-center mt-4">
-                    <b>\${name}</b>
-                </p>
-                <p class="price-produto text-center">
-                    <b>R$\${price}</b>
-                </p>
-                <div class="add-carrinho">
-                   
-                </div>
+        <div class="col-12 col-lg-3 col-md-3 col-sm-6 mb-5 animated fadeInUp">
+        <div class="card card-item" id="\${id}" data-description="\${dsc}">
+            <div class="img-produto">
+                <img src="\${img}" alt="">
             </div>
-        </div> `,
+            <p class="title-produto text-center mt-4">
+                <b>\${name}</b>
+            </p>
+            <p class="price-produto text-center">
+                <b>R$\${price}</b>
+            </p>
+            <div class="add-carrinho"></div>
+        </div>
+    </div> `,
      
 }
+
+
+$('.close').click(() => {
+    $('#modalItem').css('display', 'none'); 
+});
+
+$(window).click((event) => {
+    if (event.target.id === 'modalItem') {
+        $('#modalItem').css('display', 'none'); 
+    }
+});
