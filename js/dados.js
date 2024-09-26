@@ -33,7 +33,7 @@ var MENU = {
             "img": "./img/cardapio/cappuccinos/Capuccino-Be-Coffee.png",
             "name": "Cappuccino Bê Coffee",
             "dsc": "(220ml) Cappucino tradicional com adicional marshmallow tostado deixando-o ainda mais saboroso",
-            "price": 16.00
+            "price": 17.00
 
         },
         {
@@ -56,7 +56,7 @@ var MENU = {
             "id": "Capuccino-italiano",
             "img": "./img/cardapio/cappuccinos/cappuccino-italiano.png",
             "name": "Cappuccino italiano",
-            "dsc": "(220ml) Uma combinação equilibrada de café expresso com o leite vaporizado obtemos uma textura suave e cremosa que traz uma sensação aveludada a bebida. Finalizado com cacau e canela. ",
+            "dsc": "(220ml) Uma combinação equilibrada de café expresso com o leite vaporizado obtemos uma textura suave e cremosa que traz uma sensação aveludada à bebida. Finalizado com cacau e canela. ",
             "price": 12.00
 
         },
@@ -74,15 +74,15 @@ var MENU = {
         {
             "id": "Chocolate-Quente",
             "img": "./img/cardapio/chocolate quente/Chocolate-Quente.png",
-            "name": "Chocolate Quente",
-            "dsc": "(200ml) Você está prestes a se render a uma experiência irresistível e reconfortante, o delicioso Chocolate Quente Cremoso feito com leite integral, creme de leite, açúcar e cacau 50%. Perfeito para dias frios e para os momentos de relaxamento.",
+            "name": "Chocolate Quente Cremoso",
+            "dsc": "(200ml) Você está prestes a se render a uma experiência irresistível e reconfortante, o delicioso Chocolate Quente Cremoso feito com leite integral, creme de leite, açúcar e cacau 50%. Coberto de um creme de chantilly da casa. Perfeito para dias frios e para os momentos de relaxamento.",
             "price": 16.00
         },
         {
             "id": "chocolate-becoffe",
             "img": "./img/cardapio/chocolate quente/chocolatebecoffee.png",
-            "name": "Chocolate Bê coffee",
-            "dsc": "(200ml) adicional do chocolate quente com creme de chantilly da casa, com um sutil toque de chocolate 50%, Nutella e ou marshmallow tostado",
+            "name": "Chocolate Bê coffee Cremoso",
+            "dsc": "(200ml) Chocolate quente cremoso, com Nutella e ou marshmallow tostado",
             "price": 19.00
         }
 
@@ -99,7 +99,7 @@ var MENU = {
             "id": "Frapê",
             "img": "./img/cardapio/bebidas geladas/Frapê.png",
             "name": "Frapê",
-            "dsc": "(250ml) Criado com uma mistura única de ingredientes de alta qualidade, frutas in natura (morango, amora e frutas vermelhas), leite integral, leite condensado e sorvete trazendo uma textura cremosa e sabor irresistível. Uma taça decorada com calda e com cobertura do creme de chantilly da casa. Uma explosão de frescor, doçura e sabor que encanta que encanta.",
+            "dsc": "(250ml) Criado com uma mistura única de ingredientes de alta qualidade, frutas in natura (morango, amora e frutas vermelhas), leite integral, leite condensado e sorvete trazendo uma textura cremosa e sabor irresistível. Uma taça decorada com calda e com cobertura do creme de chantilly da casa. Uma explosão de frescor, doçura e sabor que encanta",
             "price": 23.00
         },
         {
@@ -132,6 +132,13 @@ var MENU = {
             "name": "Pão na chapa com ovos mexidos e bacon",
             "dsc": "Aquela manteiga que derrete e deixa um sabor todo especial, combinando com o pão de casca rústica, fatias mais grossas e incrivelmente macio com adicional de ovo e cubinhos de bacon frito  proporcionando mais sabor ao pão",
             "price": 12.00
+        },
+        {
+            "id": "paodequeijo",
+            "img": "/img/cardapio/salgados/paodequeijo.png",
+            "name": "Pão de queijo",
+            "dsc": "(8 unidades) Crocante por fora e macio por dentro, o pão de queijo é uma explosão de sabor e textura, com aquele gostinho caseiro de queijo minas ",
+            "price": 8.00
         }
         
     ],
@@ -166,6 +173,13 @@ var MENU = {
             "price": 15.00
         },
         {
+            "id": "Bolinhos-de-bacalhau",
+            "img": "./img/cardapio/salgados/bolinho.png",
+            "name": "Bolinhos de bacalhau",
+            "dsc": "(3 unidades) Bacalhau desfiado com um toque leve de purê de batatas com o coentro e tem como acompanhamento azeite, pimenta e geleia de pimenta.",
+            "price": 18.00
+        },
+        {
             "id": "Porção-de-canudinho",
             "img": "./img/cardapio/salgados/Porção-de-canudinho.png",
             "name": "Canudinho artesanal",
@@ -178,13 +192,7 @@ var MENU = {
             "name": "Quibe artesanal",
             "dsc": "O preparo do quibe, consiste na mistura do triguilho com a carne moída, regado com especiarias aromáticas, o alho, cebola e muita hortelã. Assado no azeite e servido com o delicioso molho cítrico a base de iogurte natural, azeite extravirgem e hortelã.",
             "price": 14.00
-        },{
-            "id": "paodequeijo",
-            "img": "/img/cardapio/salgados/paodequeijo.png",
-            "name": "Pão de queijo",
-            "dsc": "(8 unidades) Crocante por fora e macio por dentro, o pão de queijo é uma explosão de sabor e textura, com aquele gostinho caseiro de queijo minas ",
-            "price": 8.00
-        }
+        },
         
     ],
     "tapiocas":[
@@ -212,6 +220,27 @@ var MENU = {
             "price": 19.00
             
         },
+        {
+            "id": "Crepioca",
+            "img": "./img/cardapio/tapiocas/crepioca.jpg",
+            "name": "Crepioca 1 ingrediente",
+            "dsc": "A crepioca é uma excelente alternativa leve para quem busca um café da tarde. Mistura homogênea da goma de tapioca, ovo e uma pitada de sal em uma frigideira com azeite extravirgem e recheada com os nossos recheios, como suculento frango desfiado, saborosa carne seca dessalgada e desfiadíssima, bacon cortadinho e frito, creme de aipim pastoso, banana da terra docinha, delicioso requeijão cremoso e queijo minas derretido.",
+            "price": 13.00
+        },
+        {
+            "id": "Crepioca-2",
+            "img": "./img/cardapio/tapiocas/crepioca.jpg",
+            "name": "Crepioca 2 ingredientes",
+            "dsc": "A crepioca é uma excelente alternativa leve para quem busca um café da tarde. Mistura homogênea da goma de tapioca, ovo e uma pitada de sal em uma frigideira com azeite extravirgem e recheada com os nossos recheios, como suculento frango desfiado, saborosa carne seca dessalgada e desfiadíssima, bacon cortadinho e frito, creme de aipim pastoso, banana da terra docinha, delicioso requeijão cremoso e queijo minas derretido.",
+            "price": 16.00   
+        },
+        {
+            "id": "Crepioca-3",
+            "img": "./img/cardapio/tapiocas/crepioca.jpg",
+            "name": "Crepioca 3 ingredientes",
+            "dsc": "A crepioca é uma excelente alternativa leve para quem busca um café da tarde. Mistura homogênea da goma de tapioca, ovo e uma pitada de sal em uma frigideira com azeite extravirgem e recheada com os nossos recheios, como suculento frango desfiado, saborosa carne seca dessalgada e desfiadíssima, bacon cortadinho e frito, creme de aipim pastoso, banana da terra docinha, delicioso requeijão cremoso e queijo minas derretido.",
+            "price": 19.00
+        }
       
 
         
@@ -235,7 +264,7 @@ var MENU = {
             "id": "Torta-holandesa",
             "img": "./img/cardapio/tortas/tortaholandesa.png",
             "name": "Torta holandesa",
-            "dsc": "(Fatia) Essa torta une a crocância da massa de biscoito a suavidade do creme espesso à base de creme e leite condensado, finalizada com uma deliciosa cobertura de ganache e biscoitos com chocolate.",
+            "dsc": "(Fatia) Essa torta une a crocância da massa de biscoito à suavidade do creme espesso à base de creme e leite condensado, finalizada com uma deliciosa cobertura de ganache e biscoitos com chocolate.",
             "price": 19.00
         },
         {
@@ -259,7 +288,7 @@ var MENU = {
         },
         {
             "id": "Ninho-com-morango",
-            "img": "./img/cardapio/bolos/Ninho-com-morango.png",
+            "img": "./img/cardapio/bolos/bolo-de-ninho.jpg",
             "name": "Ninho com morango",
             "dsc": "(Fatia) Uma combinação deliciosa, este bolo é feito com uma massa macia e fofinha, recheado com um saboroso creme de ninho e um cremoso couli de morangos. É coberto por uma deliciosa camada quatro leites.",
             "price": 19.00
