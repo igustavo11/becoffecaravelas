@@ -33,7 +33,7 @@ var MENU = {
             "img": "./img/cardapio/cappuccinos/Capuccino-Be-Coffee.png",
             "name": "Cappuccino Bê Coffee",
             "dsc": "(220ml) Cappucino tradicional com adicional de Nutella e marshmallow tostado deixando-o ainda mais saboroso",
-            "price": 17.00
+            "price": 18.00
 
         },
         {
@@ -83,7 +83,7 @@ var MENU = {
             "img": "./img/cardapio/chocolate quente/chocolatebecoffee.png",
             "name": "Chocolate Bê coffee Cremoso",
             "dsc": "(200ml) Chocolate quente cremoso, com Nutella e marshmallow tostado",
-            "price": 19.00
+            "price": 18.00
         }
 
     ],
