@@ -152,9 +152,9 @@ var MENU = {
         },
         {
             "id": "Coxinha",
-            "img": "./img/cardapio/salgados/Coxinha.png",
-            "name": "Coxinha na cama de requeijão",
-            "dsc": "Massa crocante por fora, um recheio suculento de frango desfiado sobre uma generosa camada de requeijão",
+            "img": "./img/cardapio/salgados/coxinhas.png",
+            "name": "Coxinhas na cama de requeijão",
+            "dsc": "(6 unidades) Massa crocante por fora, um recheio suculento de frango desfiado sobre uma generosa camada de requeijão",
             "price": 11.00
         },
         {
