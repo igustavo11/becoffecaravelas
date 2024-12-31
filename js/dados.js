@@ -33,7 +33,7 @@ var MENU = {
             "img": "./img/cardapio/cappuccinos/Capuccino-Be-Coffee.png",
             "name": "Cappuccino Bê Coffee",
             "dsc": "(220ml) Cappucino tradicional com adicional de Nutella e marshmallow tostado deixando-o ainda mais saboroso",
-            "price": 18.00
+            "price": 20.00
 
         },
         {
@@ -41,7 +41,7 @@ var MENU = {
             "img": "./img/cardapio/cappuccinos/Capuccino-doce-de leite.png",
             "name": "Cappuccino doce de leite",
             "dsc": "(220ml) Cappucino tradicional com adicional de Doce de leite cremoso da casa, deixando-o ainda mais saboroso",
-            "price": 16.00
+            "price": 18.00
 
         },
         {
@@ -65,7 +65,7 @@ var MENU = {
             "img": "./img/cardapio/cappuccinos/cappuccino-nutella.png",
             "name": "Cappuccino nutella",
             "dsc": "(220ml) Cappucino tradicional com adicional de Nutella, deixando o ainda mais saboroso",
-            "price": 16.00
+            "price": 18.00
         }
         
 
@@ -76,14 +76,14 @@ var MENU = {
             "img": "./img/cardapio/chocolate quente/Chocolate-Quente.png",
             "name": "Chocolate Quente Cremoso",
             "dsc": "(200ml) Você está prestes a se render a uma experiência irresistível e reconfortante, o delicioso Chocolate Quente Cremoso feito com leite integral, creme de leite, açúcar e cacau 50%. Coberto de um creme de chantilly da casa. Perfeito para dias frios e para os momentos de relaxamento.",
-            "price": 16.00
+            "price": 18.00
         },
         {
             "id": "chocolate-becoffe",
             "img": "./img/cardapio/chocolate quente/chocolatebecoffee.png",
             "name": "Chocolate Bê coffee Cremoso",
             "dsc": "(200ml) Chocolate quente cremoso, com Nutella e marshmallow tostado",
-            "price": 18.00
+            "price": 20.00
         }
 
     ],
@@ -117,21 +117,21 @@ var MENU = {
             "img": "./img/cardapio/toasts/toast-chapa.png ",
             "name": "Pão na chapa",
             "dsc": "Aquela manteiga que derrete e deixa um sabor todo especial, combinando com o pão de casca rústica, fatias mais grossas e incrivelmente macio",
-            "price": 6.00
+            "price": 7.00
         },
         {
             "id": "toasts-queijo",
             "img": "./img/cardapio/toasts/queijo.png",
             "name": "Pão na chapa com queijo especial",
             "dsc": "Aquela manteiga que derrete e deixa um sabor todo especial, combinando com o pão de casca rústica, fatias mais grossas e incrivelmente macio com adicional de queijo minas derretido proporcionando mais sabor ao pão",
-            "price": 9.00
+            "price": 10.00
         },
         {
             "id": "toasts-ovo",
             "img": "./img/cardapio/toasts/toastsovos.png",
             "name": "Pão na chapa com ovos mexidos e bacon",
             "dsc": "Aquela manteiga que derrete e deixa um sabor todo especial, combinando com o pão de casca rústica, fatias mais grossas e incrivelmente macio com adicional de ovo e cubinhos de bacon frito  proporcionando mais sabor ao pão",
-            "price": 12.00
+            "price": 13.00
         },
         {
             "id": "paodequeijo",
@@ -177,7 +177,7 @@ var MENU = {
             "img": "./img/cardapio/salgados/bolinho.png",
             "name": "Bolinhos de bacalhau",
             "dsc": "(3 unidades) Bacalhau desfiado com um toque leve de purê de batatas com o coentro e tem como acompanhamento azeite, pimenta e geleia de pimenta.",
-            "price": 18.00
+            "price": 20.00
         },
         {
             "id": "Porção-de-canudinho",
@@ -200,7 +200,7 @@ var MENU = {
             "id": "Tapioca",
             "img": "./img/cardapio/tapiocas/Tapioca.png",
             "name": "Tapioca 1 ingrediente",
-            "dsc": "A tapioca é um prato em que a goma é aquecida na frigideira e que servimos com diversos recheios, como um suculento frango desfiado, saborosa carne seca dessalgada e desfiadíssima, bacon cortadinho e frito, creme de aipim pastoso, banana da terra docinha, delicioso requeijão cremoso e queijo minas derretido.",
+            "dsc": "A tapioca é um prato em que a goma é aquecida na frigideira e que servimos com diversos recheios, como um suculento frango desfiado, saborosa carne seca dessalgada e desfiadíssima, bacon cortadinho e frito, creme de aipim pastoso, banana da terra docinha, delicioso requeijão cremoso e queijo minas derretido. Para pedidos com mais de 4 ingredientes, será acrescentado um valor de 2 reais por ingrediente adicional",
             "price": 13.00
             
         },
@@ -208,7 +208,7 @@ var MENU = {
             "id": "Tapioca-2",
             "img": "./img/cardapio/tapiocas/Tapioca.png",
             "name": "Tapioca 2 ingredientes",
-            "dsc": "A tapioca é um prato em que a goma é aquecida na frigideira e que servimos com diversos recheios, como um suculento frango desfiado, saborosa carne seca dessalgada e desfiadíssima, bacon cortadinho e frito, creme de aipim pastoso, banana da terra docinha, delicioso requeijão cremoso e queijo minas derretido.",
+            "dsc": "A tapioca é um prato em que a goma é aquecida na frigideira e que servimos com diversos recheios, como um suculento frango desfiado, saborosa carne seca dessalgada e desfiadíssima, bacon cortadinho e frito, creme de aipim pastoso, banana da terra docinha, delicioso requeijão cremoso e queijo minas derretido. Para pedidos com mais de 4 ingredientes, será acrescentado um valor de 2 reais por ingrediente adicional",
             "price": 16.00
             
         },
@@ -216,7 +216,7 @@ var MENU = {
             "id": "Tapioca-3",
             "img": "./img/cardapio/tapiocas/Tapioca.png",
             "name": "Tapioca 3 ingredientes",
-            "dsc": "A tapioca é um prato em que a goma é aquecida na frigideira e que servimos com diversos recheios, como um suculento frango desfiado, saborosa carne seca dessalgada e desfiadíssima, bacon cortadinho e frito, creme de aipim pastoso, banana da terra docinha, delicioso requeijão cremoso e queijo minas derretido.",
+            "dsc": "A tapioca é um prato em que a goma é aquecida na frigideira e que servimos com diversos recheios, como um suculento frango desfiado, saborosa carne seca dessalgada e desfiadíssima, bacon cortadinho e frito, creme de aipim pastoso, banana da terra docinha, delicioso requeijão cremoso e queijo minas derretido. Para pedidos com mais de 4 ingredientes, será acrescentado um valor de 2 reais por ingrediente adicional",
             "price": 19.00
             
         },
@@ -224,21 +224,21 @@ var MENU = {
             "id": "Crepioca",
             "img": "./img/cardapio/tapiocas/crepioca.jpg",
             "name": "Crepioca 1 ingrediente",
-            "dsc": "A crepioca é uma excelente alternativa leve para quem busca um café da tarde. Mistura homogênea da goma de tapioca, ovo e uma pitada de sal em uma frigideira com azeite extravirgem e recheada com os nossos recheios, como suculento frango desfiado, saborosa carne seca dessalgada e desfiadíssima, bacon cortadinho e frito, creme de aipim pastoso, banana da terra docinha, delicioso requeijão cremoso e queijo minas derretido.",
+            "dsc": "A crepioca é uma excelente alternativa leve para quem busca um café da tarde. Mistura homogênea da goma de tapioca, ovo e uma pitada de sal em uma frigideira com azeite extravirgem e recheada com os nossos recheios, como suculento frango desfiado, saborosa carne seca dessalgada e desfiadíssima, bacon cortadinho e frito, creme de aipim pastoso, banana da terra docinha, delicioso requeijão cremoso e queijo minas derretido. Para pedidos com mais de 4 ingredientes, será acrescentado um valor de 2 reais por ingrediente adicional",
             "price": 13.00
         },
         {
             "id": "Crepioca-2",
             "img": "./img/cardapio/tapiocas/crepioca.jpg",
             "name": "Crepioca 2 ingredientes",
-            "dsc": "A crepioca é uma excelente alternativa leve para quem busca um café da tarde. Mistura homogênea da goma de tapioca, ovo e uma pitada de sal em uma frigideira com azeite extravirgem e recheada com os nossos recheios, como suculento frango desfiado, saborosa carne seca dessalgada e desfiadíssima, bacon cortadinho e frito, creme de aipim pastoso, banana da terra docinha, delicioso requeijão cremoso e queijo minas derretido.",
+            "dsc": "A crepioca é uma excelente alternativa leve para quem busca um café da tarde. Mistura homogênea da goma de tapioca, ovo e uma pitada de sal em uma frigideira com azeite extravirgem e recheada com os nossos recheios, como suculento frango desfiado, saborosa carne seca dessalgada e desfiadíssima, bacon cortadinho e frito, creme de aipim pastoso, banana da terra docinha, delicioso requeijão cremoso e queijo minas derretido. Para pedidos com mais de 4 ingredientes, será acrescentado um valor de 2 reais por ingrediente adicional",
             "price": 16.00   
         },
         {
             "id": "Crepioca-3",
             "img": "./img/cardapio/tapiocas/crepioca.jpg",
             "name": "Crepioca 3 ingredientes",
-            "dsc": "A crepioca é uma excelente alternativa leve para quem busca um café da tarde. Mistura homogênea da goma de tapioca, ovo e uma pitada de sal em uma frigideira com azeite extravirgem e recheada com os nossos recheios, como suculento frango desfiado, saborosa carne seca dessalgada e desfiadíssima, bacon cortadinho e frito, creme de aipim pastoso, banana da terra docinha, delicioso requeijão cremoso e queijo minas derretido.",
+            "dsc": "A crepioca é uma excelente alternativa leve para quem busca um café da tarde. Mistura homogênea da goma de tapioca, ovo e uma pitada de sal em uma frigideira com azeite extravirgem e recheada com os nossos recheios, como suculento frango desfiado, saborosa carne seca dessalgada e desfiadíssima, bacon cortadinho e frito, creme de aipim pastoso, banana da terra docinha, delicioso requeijão cremoso e queijo minas derretido. Para pedidos com mais de 4 ingredientes, será acrescentado um valor de 2 reais por ingrediente adicional",
             "price": 19.00
         }
       
@@ -272,7 +272,7 @@ var MENU = {
             "img": "./img/cardapio/tortas/tortamaracuja.png",
             "name": "Torta de maracujá",
             "dsc": "(Fatia) Uma crocante massa de biscoitos com um delicioso creme de maracujá coberto por uma generosa camada de creme, leite condensado e leite em pó. E uma camada refrescante e tropical de geleia de maracujá in natura.",
-            "price": 19.00
+            "price": 20.00
         }
 
 
@@ -284,21 +284,21 @@ var MENU = {
             "img": "./img/cardapio/bolos/Chocolatudo.png",
             "name": "Chocolatudo",
             "dsc": "(Fatia) Um bolo leve e úmido preparado com cacau 50% e recheio generoso de brigadeiro e uma ganache de creme e chocolate, finalizado com uma deliciosa ganache de chocolate.",
-            "price": 19.00
+            "price": 20.00
         },
         {
             "id": "Ninho-com-morango",
             "img": "./img/cardapio/bolos/bolo-de-ninho.jpg",
             "name": "Ninho com morango",
             "dsc": "(Fatia) Uma combinação deliciosa, este bolo é feito com uma massa macia e fofinha, recheado com um saboroso creme de ninho e um cremoso couli de morangos. É coberto por uma deliciosa camada quatro leites.",
-            "price": 19.00
+            "price": 20.00
         },
         {
             "id": "Red-Velvet",
             "img": "./img/cardapio/bolos/Red-Velvet.png",
             "name": "Red Velvet",
             "dsc": "(Fatia) Um bolo americano famoso por sua cor vermelha vibrante e textura macia. É recheado com uma generosa camada de cream cheese, que equilibra perfeitamente com a cobertura cremosa de quatro leites acompanhada de uma deliciosa geleia de frutas vermelhas.",
-            "price": 20.00
+            "price": 22.00
         },
 
         
@@ -309,7 +309,7 @@ var MENU = {
             "img": "./img/cardapio/Doces/Brownie-com-sorvete.png",
             "name": "Brownie com sorvete",
             "dsc": "O nosso brownie é uma massa cremosa, densa e rica em chocolate. É aquecido e servido quente com uma ganache de chocolate artesanal e uma deliciosa bola de sorvete.",
-            "price": 19.00
+            "price": 21.00
         },
         {
             "id": "Porção-mini-churros",
@@ -354,7 +354,7 @@ var MENU = {
             "id": "Agua-com-gas",
             "img": "./img/cardapio/bebidas/Agua-com-gas.png",
             "name": "Água com gás",
-            "dsc": "(500ml) A água com gás engarrafada, geladinha, melhora o paladar deixando as papilas gustativas mais sensíveis ao sabor dos alimentos.",
+            "dsc": "(500ml) A água com gás engarrafada, geladinha, melhora o paladar deixando as papilas gustativas mais sensíveis ao sabor dos alimentos.(Acrésmimo de limão e gelo 0,50 centavos)",
             "price": 5.00
         },
         {
@@ -386,7 +386,7 @@ var MENU = {
             "img": "./img/cardapio/caldos/camaraoint.png",
             "name": "Camarão internacional",
             "dsc": "(500g) Camarões salteados no azeite e manteiga, envolvidos em um cremoso arroz feito no leve molho de requeijão com ervilhas, presunto, queijo e coberto com batata palha e queijo.",
-            "price": 40.00
+            "price": 42.00
         },
      
         
