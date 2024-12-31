@@ -200,7 +200,7 @@ var MENU = {
             "id": "Tapioca",
             "img": "./img/cardapio/tapiocas/Tapioca.png",
             "name": "Tapioca 1 ingrediente",
-            "dsc": "A tapioca é um prato em que a goma é aquecida na frigideira e que servimos com diversos recheios, como um suculento frango desfiado, saborosa carne seca dessalgada e desfiadíssima, bacon cortadinho e frito, creme de aipim pastoso, banana da terra docinha, delicioso requeijão cremoso e queijo minas derretido. Para pedidos com mais de 4 ingredientes, será acrescentado um valor de 2 reais por ingrediente adicional",
+            "dsc": "A tapioca é um prato em que a goma é aquecida na frigideira e que servimos com diversos recheios, como um suculento frango desfiado, saborosa carne seca dessalgada e desfiadíssima, bacon cortadinho e frito, creme de aipim pastoso, banana da terra docinha, delicioso requeijão cremoso e queijo minas derretido. Para pedidos com mais de 4 ingredientes, será acrescentado um valor de 2 reais ",
             "price": 13.00
             
         },
@@ -208,7 +208,7 @@ var MENU = {
             "id": "Tapioca-2",
             "img": "./img/cardapio/tapiocas/Tapioca.png",
             "name": "Tapioca 2 ingredientes",
-            "dsc": "A tapioca é um prato em que a goma é aquecida na frigideira e que servimos com diversos recheios, como um suculento frango desfiado, saborosa carne seca dessalgada e desfiadíssima, bacon cortadinho e frito, creme de aipim pastoso, banana da terra docinha, delicioso requeijão cremoso e queijo minas derretido. Para pedidos com mais de 4 ingredientes, será acrescentado um valor de 2 reais por ingrediente adicional",
+            "dsc": "A tapioca é um prato em que a goma é aquecida na frigideira e que servimos com diversos recheios, como um suculento frango desfiado, saborosa carne seca dessalgada e desfiadíssima, bacon cortadinho e frito, creme de aipim pastoso, banana da terra docinha, delicioso requeijão cremoso e queijo minas derretido. Para pedidos com mais de 4 ingredientes, será acrescentado um valor de 2 reais ",
             "price": 16.00
             
         },
@@ -216,7 +216,7 @@ var MENU = {
             "id": "Tapioca-3",
             "img": "./img/cardapio/tapiocas/Tapioca.png",
             "name": "Tapioca 3 ingredientes",
-            "dsc": "A tapioca é um prato em que a goma é aquecida na frigideira e que servimos com diversos recheios, como um suculento frango desfiado, saborosa carne seca dessalgada e desfiadíssima, bacon cortadinho e frito, creme de aipim pastoso, banana da terra docinha, delicioso requeijão cremoso e queijo minas derretido. Para pedidos com mais de 4 ingredientes, será acrescentado um valor de 2 reais por ingrediente adicional",
+            "dsc": "A tapioca é um prato em que a goma é aquecida na frigideira e que servimos com diversos recheios, como um suculento frango desfiado, saborosa carne seca dessalgada e desfiadíssima, bacon cortadinho e frito, creme de aipim pastoso, banana da terra docinha, delicioso requeijão cremoso e queijo minas derretido. Para pedidos com mais de 4 ingredientes, será acrescentado um valor de 2 reais ",
             "price": 19.00
             
         },
@@ -224,21 +224,21 @@ var MENU = {
             "id": "Crepioca",
             "img": "./img/cardapio/tapiocas/crepioca.jpg",
             "name": "Crepioca 1 ingrediente",
-            "dsc": "A crepioca é uma excelente alternativa leve para quem busca um café da tarde. Mistura homogênea da goma de tapioca, ovo e uma pitada de sal em uma frigideira com azeite extravirgem e recheada com os nossos recheios, como suculento frango desfiado, saborosa carne seca dessalgada e desfiadíssima, bacon cortadinho e frito, creme de aipim pastoso, banana da terra docinha, delicioso requeijão cremoso e queijo minas derretido. Para pedidos com mais de 4 ingredientes, será acrescentado um valor de 2 reais por ingrediente adicional",
+            "dsc": "A crepioca é uma excelente alternativa leve para quem busca um café da tarde. Mistura homogênea da goma de tapioca, ovo e uma pitada de sal em uma frigideira com azeite extravirgem e recheada com os nossos recheios, como suculento frango desfiado, saborosa carne seca dessalgada e desfiadíssima, bacon cortadinho e frito, creme de aipim pastoso, banana da terra docinha, delicioso requeijão cremoso e queijo minas derretido. Para pedidos com mais de 4 ingredientes, será acrescentado um valor de 2 reais ",
             "price": 13.00
         },
         {
             "id": "Crepioca-2",
             "img": "./img/cardapio/tapiocas/crepioca.jpg",
             "name": "Crepioca 2 ingredientes",
-            "dsc": "A crepioca é uma excelente alternativa leve para quem busca um café da tarde. Mistura homogênea da goma de tapioca, ovo e uma pitada de sal em uma frigideira com azeite extravirgem e recheada com os nossos recheios, como suculento frango desfiado, saborosa carne seca dessalgada e desfiadíssima, bacon cortadinho e frito, creme de aipim pastoso, banana da terra docinha, delicioso requeijão cremoso e queijo minas derretido. Para pedidos com mais de 4 ingredientes, será acrescentado um valor de 2 reais por ingrediente adicional",
+            "dsc": "A crepioca é uma excelente alternativa leve para quem busca um café da tarde. Mistura homogênea da goma de tapioca, ovo e uma pitada de sal em uma frigideira com azeite extravirgem e recheada com os nossos recheios, como suculento frango desfiado, saborosa carne seca dessalgada e desfiadíssima, bacon cortadinho e frito, creme de aipim pastoso, banana da terra docinha, delicioso requeijão cremoso e queijo minas derretido. Para pedidos com mais de 4 ingredientes, será acrescentado um valor de 2 reais ",
             "price": 16.00   
         },
         {
             "id": "Crepioca-3",
             "img": "./img/cardapio/tapiocas/crepioca.jpg",
             "name": "Crepioca 3 ingredientes",
-            "dsc": "A crepioca é uma excelente alternativa leve para quem busca um café da tarde. Mistura homogênea da goma de tapioca, ovo e uma pitada de sal em uma frigideira com azeite extravirgem e recheada com os nossos recheios, como suculento frango desfiado, saborosa carne seca dessalgada e desfiadíssima, bacon cortadinho e frito, creme de aipim pastoso, banana da terra docinha, delicioso requeijão cremoso e queijo minas derretido. Para pedidos com mais de 4 ingredientes, será acrescentado um valor de 2 reais por ingrediente adicional",
+            "dsc": "A crepioca é uma excelente alternativa leve para quem busca um café da tarde. Mistura homogênea da goma de tapioca, ovo e uma pitada de sal em uma frigideira com azeite extravirgem e recheada com os nossos recheios, como suculento frango desfiado, saborosa carne seca dessalgada e desfiadíssima, bacon cortadinho e frito, creme de aipim pastoso, banana da terra docinha, delicioso requeijão cremoso e queijo minas derretido. Para pedidos com mais de 4 ingredientes, será acrescentado um valor de 2 reais ",
             "price": 19.00
         }
       
