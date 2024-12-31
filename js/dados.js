@@ -354,7 +354,7 @@ var MENU = {
             "id": "Agua-com-gas",
             "img": "./img/cardapio/bebidas/Agua-com-gas.png",
             "name": "Água com gás",
-            "dsc": "(500ml) A água com gás engarrafada, geladinha, melhora o paladar deixando as papilas gustativas mais sensíveis ao sabor dos alimentos.(Acrésmimo de limão e gelo 0,50 centavos)",
+            "dsc": "(500ml) A água com gás engarrafada, geladinha, melhora o paladar deixando as papilas gustativas mais sensíveis ao sabor dos alimentos.(Acréscimo de limão e gelo 0,50 centavos)",
             "price": 5.00
         },
         {
