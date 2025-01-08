@@ -93,7 +93,7 @@ var MENU = {
             "img": "./img/cardapio/bebidas geladas/Cappuccino-Gelado.png",
             "name": "Cappuccino Gelado",
             "dsc": "(200ml) Uma bebida deliciosa adoçada a base de café, leite em pó, cacau 50% que traz uma nota sutil de chocolate, a canela deixando um toque de especiarias, envolvido ao leite integral e um delicioso sorvete de creme deixando seu sabor, textura aveludada e com muita cremosidade. Coberto por uma leve e doce cobertura do creme do chantilly da casa.",
-            "price": 17.00
+            "price": 18.00
         },
         {
             "id": "Frapê",
@@ -376,7 +376,7 @@ var MENU = {
             "img": "./img/cardapio/bebidas/suco.png",
             "name": "Sucos",
             "dsc": "(300ml)A polpa de fruta natural congelada é batida com água mineral gelada com ou sem açúcar proporcionando um suco extremamente gelado e concentrado. Sabores, acerola, graviola, cajá, cupuaçu, goiaba, mangaba",
-            "price": 7.00
+            "price": 8.00
         }
         
     ],
