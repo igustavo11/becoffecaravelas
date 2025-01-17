@@ -386,7 +386,7 @@ var MENU = {
             "img": "./img/cardapio/caldos/camaraoint.png",
             "name": "Camarão internacional",
             "dsc": "(500g) Camarões salteados no azeite e manteiga, envolvidos em um cremoso arroz feito no leve molho de requeijão com ervilhas, presunto, queijo e coberto com batata palha e queijo.",
-            "price": 42.00
+            "price": 45.00
         },
      
         
