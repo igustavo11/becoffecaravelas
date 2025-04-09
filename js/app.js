@@ -67,13 +67,13 @@ cardapio.metodos = {
     $("#menu-" + categoria).addClass("active");
 
     // exibir a mensagem ao trocar de categoria, se não for o "cafe"
-    if (categoria !== "cafe") {
-      cardapio.metodos.mensagem(
-        "Se for para viagem, será cobrado R$ 2,00 no total.",
-        "red",
-        2000
-      );
-    }
+    // if (categoria !== "cafe") {
+    //   cardapio.metodos.mensagem(
+    //     "Se for para viagem, será cobrado R$ 2,00 no total.",
+    //     "red",
+    //     2000
+    //   );
+    // }
   },
 
   // botão Ver Mais
@@ -112,20 +112,20 @@ cardapio.metodos = {
   },
 
   // exibição de mensagens
-  // mensagem: (texto, cor = "red", tempo = 3500) => {
-  //   let id = Math.floor(Date.now() * Math.random()).toString();
+  mensagem: (texto, cor = "red", tempo = 3500) => {
+    let id = Math.floor(Date.now() * Math.random()).toString();
 
-  //   let msg = `<div id="msg-${id}" class ="animated fadeInDown toast ${cor}" >${texto}</div>`;
-  //   $("#container-mensagens").append(msg);
+    let msg = `<div id="msg-${id}" class ="animated fadeInDown toast ${cor}" >${texto}</div>`;
+    $("#container-mensagens").append(msg);
 
-  //   setTimeout(() => {
-  //     $("#msg-" + id).removeClass("fadeInDown");
-  //     $("#msg-" + id).addClass("fadeOutUp");
-  //     setTimeout(() => {
-  //       $("#msg-" + id).remove();
-  //     }, 800);
-  //   }, tempo);
-  // },
+    setTimeout(() => {
+      $("#msg-" + id).removeClass("fadeInDown");
+      $("#msg-" + id).addClass("fadeOutUp");
+      setTimeout(() => {
+        $("#msg-" + id).remove();
+      }, 800);
+    }, tempo);
+  },
 };
 
 cardapio.templates = {
