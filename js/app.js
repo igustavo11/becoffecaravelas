@@ -112,20 +112,20 @@ cardapio.metodos = {
   },
 
   // exibição de mensagens
-  mensagem: (texto, cor = "red", tempo = 3500) => {
-    let id = Math.floor(Date.now() * Math.random()).toString();
+  // mensagem: (texto, cor = "red", tempo = 3500) => {
+  //   let id = Math.floor(Date.now() * Math.random()).toString();
 
-    let msg = `<div id="msg-${id}" class ="animated fadeInDown toast ${cor}" >${texto}</div>`;
-    $("#container-mensagens").append(msg);
+  //   let msg = `<div id="msg-${id}" class ="animated fadeInDown toast ${cor}" >${texto}</div>`;
+  //   $("#container-mensagens").append(msg);
 
-    setTimeout(() => {
-      $("#msg-" + id).removeClass("fadeInDown");
-      $("#msg-" + id).addClass("fadeOutUp");
-      setTimeout(() => {
-        $("#msg-" + id).remove();
-      }, 800);
-    }, tempo);
-  },
+  //   setTimeout(() => {
+  //     $("#msg-" + id).removeClass("fadeInDown");
+  //     $("#msg-" + id).addClass("fadeOutUp");
+  //     setTimeout(() => {
+  //       $("#msg-" + id).remove();
+  //     }, 800);
+  //   }, tempo);
+  // },
 };
 
 cardapio.templates = {
