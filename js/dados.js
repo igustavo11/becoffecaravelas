@@ -35,7 +35,7 @@ var MENU = {
       img: "./img/cardapio/cappuccinos/Capuccino-doce-de leite.png",
       name: "Cappuccino doce de leite",
       dsc: "(220ml) Cappucino tradicional com adicional de Doce de leite cremoso da casa, deixando-o ainda mais saboroso",
-      price: 18.0,
+      price: 19.0,
     },
     {
       id: "Capuccino-tradicional",
