@@ -61,6 +61,47 @@ a.navbar-brand {
   background-color: var(--color-red);
 }
 
+.toast.info {
+  background-color: var(--color-primary);
+}
+
+/* Card Informação da Categoria */
+.card-info-categoria {
+  background:var(--color-white);
+  color: var(--color-black);
+  padding: 25px;
+  border-radius: 15px;
+  text-align: center;
+  box-shadow: 0 8px 25px rgba(188, 117, 50, 0.3);
+  border: 2px solid var(--color-secondary);
+}
+
+.card-info-categoria h5 {
+  color: var(--color-primary);
+  font-size: 22px;
+  margin-bottom: 15px;
+  font-weight: bold;
+}
+
+.card-info-categoria h5 i {
+  margin-right: 10px;
+  font-size: 24px;
+}
+
+.card-info-categoria p {
+  margin-bottom: 8px;
+  font-size: 16px;
+  line-height: 1.5;
+  color: var(--color-black);
+}
+
+.card-info-categoria .acrescimo {
+  color: var(--color-primary);
+  font-size: 14px;
+  margin-bottom: 0;
+  font-weight: 500;
+}
+
 .btn-white {
   background-color: var(--color-white);
   color: var(--color-black) !important;
@@ -435,3 +476,5 @@ footer {
   margin-top: 5px;
   font-size: 15px;
 }
+
+

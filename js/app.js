@@ -33,6 +33,27 @@ cardapio.metodos = {
     if (!vermais) {
       $("#itensCardapio").html("");
       $("#btnVerMais").removeClass("hidden");
+      
+      // Adicionar informações específicas para certas categorias
+      if (categoria === "tapiocas") {
+        let infoTapioca = `<div class="col-12 mb-4">
+          <div class="card-info-categoria">
+            <h5><i class="fas fa-magic"></i> Monte do Seu Jeito!</h5>
+            <p><strong>Tapiocas e Crepiocas:</strong> 1 recheio = R$ 15,00 | 2 recheios = R$ 18,00 | 3 recheios = R$ 21,00</p>
+            <p class="acrescimo"><em>Acréscimo de R$ 3,00 por recheio adicional</em></p>
+          </div>
+        </div>`;
+        $("#itensCardapio").append(infoTapioca);
+      } else if (categoria === "salgados") {
+        let infoSalgados = `<div class="col-12 mb-4">
+          <div class="card-info-categoria">
+            <h5><i class="fas fa-magic"></i> Monte do Seu Jeito!</h5>
+            <p><strong>Cuscuz Recheado:</strong> 1 recheio = R$ 15,00</p>
+            <p class="acrescimo"><em>Acréscimo de R$ 2,00 por recheio adicional</em></p>
+          </div>
+        </div>`;
+        $("#itensCardapio").append(infoSalgados);
+      }
     }
 
     $.each(filtro, (i, e) => {
@@ -66,14 +87,7 @@ cardapio.metodos = {
     // adicionar a classe active à categoria selecionada
     $("#menu-" + categoria).addClass("active");
 
-    // exibir a mensagem ao trocar de categoria, se não for o "cafe"
-    // if (categoria !== "cafe") {
-    //   cardapio.metodos.mensagem(
-    //     "Se for para viagem, será cobrado R$ 2,00 no total.",
-    //     "red",
-    //     2000
-    //   );
-    // }
+
   },
 
   // botão Ver Mais
@@ -126,6 +140,8 @@ cardapio.metodos = {
       }, 800);
     }, tempo);
   },
+
+
 };
 
 cardapio.templates = {
