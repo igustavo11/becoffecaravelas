@@ -192,7 +192,7 @@ var MENU = {
       img: "./img/cardapio/tapiocas/crepioca.jpg",
       name: "Crepioca",
       dsc: "Nossa crepioca é uma excelente alternativa leve para quem busca um café da tarde. Mistura homogênea da goma de tapioca, ovo e uma pitada de sal em uma frigideira com azeite extravirgem. Escolha entre nossos deliciosos recheios: Carne seca dessalgada e desfiada, frango desfiado suculento, bacon crocante, queijo minas derretido, requeijão cremoso da casa, banana da terra caramelada ou creme de aipim pastoso.",
-      price: 16.0,
+      price: 15.0,
     },
   ],
   tortas: [
