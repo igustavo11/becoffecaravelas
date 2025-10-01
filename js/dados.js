@@ -124,7 +124,7 @@ var MENU = {
       id: "paodequeijo",
       img: "/img/cardapio/salgados/paodequeijo.png",
       name: "Pão de queijo",
-      dsc: "(5 unidades) Crocante por fora e macio por dentro, o pão de queijo é uma explosão de sabor e textura, com aquele gostinho caseiro de queijo minas ",
+      dsc: "(3 unidades) Crocante por fora e macio por dentro, o pão de queijo é uma explosão de sabor e textura, com aquele gostinho caseiro de queijo minas ",
       price: 9.5,
     },
   ],
