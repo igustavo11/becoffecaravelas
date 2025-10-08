@@ -28,7 +28,7 @@ var MENU = {
       img: "./img/cardapio/cappuccinos/Capuccino-Be-Coffee.png",
       name: "Cappuccino Bê Coffee",
       dsc: "(220ml) Cappucino tradicional com adicional de Nutella e marshmallow tostado deixando-o ainda mais saboroso",
-      price: 23.0,
+      price: 24.0,
     },
     {
       id: "Capuccino-doce-de-leite",
@@ -72,7 +72,7 @@ var MENU = {
       img: "./img/cardapio/chocolate quente/chocolatebecoffee.png",
       name: "Chocolate Bê coffee Cremoso",
       dsc: "(200ml) Chocolate quente cremoso, com Nutella e marshmallow tostado",
-      price: 23.0,
+      price: 24.0,
     },
   ],
   "bebidas geladas": [
@@ -125,7 +125,7 @@ var MENU = {
       img: "/img/cardapio/salgados/paodequeijo.png",
       name: "Pão de queijo",
       dsc: "(3 unidades) Crocante por fora e macio por dentro, o pão de queijo é uma explosão de sabor e textura, com aquele gostinho caseiro de queijo minas ",
-      price: 9.5,
+      price: 10.0,
     },
   ],
   salgados: [
@@ -155,7 +155,7 @@ var MENU = {
       img: "./img/cardapio/salgados/Empadao-de-Frango.png",
       name: "Empadão de Frango",
       dsc: "(Fatia) O clássico empadão é feito com uma massa leve que derrete na boca e um delicioso recheio de frango com especiarias como alho, cebola e açafrão coberto de uma generosa camada de requeijão cremoso",
-      price: 16.5,
+      price: 17.0,
     },
     {
       id: "Bolinhos-de-bacalhau",
@@ -201,7 +201,7 @@ var MENU = {
       img: "./img/cardapio/tortas/Banoffee.png",
       name: "Banoffee",
       dsc: "(Fatia) A torta é feita com uma deliciosa massa crocante de biscoito, camada generosa de doce de leite cremoso da casa e bananas in natura cobertos com um levíssimo à base de creme e leite condensado, e finalizado com um delicado toque aveludado de canela.",
-      price: 21.0,
+      price: 22.0,
     },
     {
       id: "Torta-de-limao",
@@ -215,14 +215,14 @@ var MENU = {
       img: "./img/cardapio/tortas/tortaholandesa.png",
       name: "Torta holandesa",
       dsc: "(Fatia) Essa torta une a crocância da massa de biscoito à suavidade do creme espesso à base de creme e leite condensado, finalizada com uma deliciosa cobertura de ganache e biscoitos com chocolate.",
-      price: 22.0,
+      price: 23.0,
     },
     {
       id: "Tortamaracuja",
       img: "./img/cardapio/tortas/tortamaracuja.png",
       name: "Torta de maracujá",
       dsc: "(Fatia) Uma crocante massa de biscoitos com um delicioso creme de maracujá coberto por uma generosa camada de creme, leite condensado e leite em pó. E uma camada refrescante e tropical de geleia de maracujá in natura.",
-      price: 22.0,
+      price: 23.0,
     },
   ],
   bolos: [
@@ -231,7 +231,7 @@ var MENU = {
       img: "./img/cardapio/bolos/Chocolatudo.png",
       name: "Chocolatudo",
       dsc: "(Fatia) Um bolo leve e úmido preparado com cacau 50% e recheio generoso de brigadeiro e uma ganache de creme e chocolate, finalizado com uma deliciosa ganache de chocolate.",
-      price: 25.0,
+      price: 26.0,
     },
     {
       id: "Ninho-com-morango",
@@ -245,7 +245,7 @@ var MENU = {
       img: "./img/cardapio/bolos/Red-Velvet.png",
       name: "Red Velvet",
       dsc: "(Fatia) Um bolo americano famoso por sua cor vermelha vibrante e textura macia. É recheado com uma generosa camada de cream cheese, que equilibra perfeitamente com a cobertura cremosa de quatro leites acompanhada de uma deliciosa geleia de frutas vermelhas.",
-      price: 26.0,
+      price: 27.0,
     },
   ],
   Doces: [
@@ -254,14 +254,14 @@ var MENU = {
       img: "./img/cardapio/Doces/Brownie-com-sorvete.png",
       name: "Brownie com sorvete",
       dsc: "O nosso brownie é uma massa cremosa, densa e rica em chocolate. É aquecido e servido quente com uma ganache de chocolate artesanal e uma deliciosa bola de sorvete.",
-      price: 24.0,
+      price: 25.0,
     },
     {
       id: "Porção-mini-churros",
       img: "./img/cardapio/Doces/Porção-mini-churros.png",
       name: "Porção mini churros",
       dsc: "(15 unidades) Nosso delicioso mini churro de massa artesanal bem sequinho coberto de açúcar e canela acompanhado do Doce de leite da casa e Nutella.",
-      price: 23.0,
+      price: 24.0,
     },
     {
       id: "banana-real",
@@ -275,7 +275,7 @@ var MENU = {
       img: "./img/cardapio/Doces/palha-italiana2.png",
       name: "Palha Italiana",
       dsc: "A palha italiana idealizada para os apaixonados por chocolate que buscam uma experiência gustativa. É um doce moldado à mão, feito com o nosso delicioso brigadeiro e pedaços de biscoitos.",
-      price: 10.0,
+      price: 10.50,
     },
     {
       id: "docinho",
@@ -291,7 +291,7 @@ var MENU = {
       id: "Agua-com-gas",
       img: "./img/cardapio/bebidas/Agua-com-gas.png",
       name: "Água com gás",
-      dsc: "(500ml) A água com gás engarrafada, geladinha, melhora o paladar deixando as papilas gustativas mais sensíveis ao sabor dos alimentos.(Acréscimo de limão e gelo 0,50 centavos)",
+      dsc: "(500ml) A água com gás engarrafada, geladinha, melhora o paladar deixando as papilas gustativas mais sensíveis ao sabor dos alimentos.(Acréscimo de limão e gelo 1,00 real)",
       price: 5.0,
     },
     {
@@ -322,7 +322,7 @@ var MENU = {
       img: "./img/cardapio/caldos/camaraoint.png",
       name: "Camarão internacional",
       dsc: "(500g) Camarões salteados no azeite e manteiga, envolvidos em um cremoso arroz feito no leve molho de requeijão com ervilhas, presunto, queijo e coberto com batata palha e queijo.",
-      price: 48.0,
+      price: 49.0,
     },
   ],
 };
