@@ -28,7 +28,7 @@ var MENU = {
       img: "./img/cardapio/cappuccinos/Capuccino-Be-Coffee.png",
       name: "Cappuccino Bê Coffee",
       dsc: "(220ml) Cappucino tradicional com adicional de Nutella e marshmallow tostado deixando-o ainda mais saboroso",
-      price: 24.0,
+      price: 25.0,
     },
     {
       id: "Capuccino-doce-de-leite",
@@ -42,7 +42,7 @@ var MENU = {
       img: "./img/cardapio/cappuccinos/Capuccino-tradicional.png",
       name: "Cappuccino tradicional",
       dsc: "(220ml) Bebida deliciosa adoçada a base de café, leite em pó, cacau 50% que traz uma nota sutil de chocolate, a canela deixando um toque de especiarias. Adicionado ao leite vaporizado deixa seu sabor, textura aveludada e com muita cremosidade.",
-      price: 13.0,
+      price: 14.0,
     },
     {
       id: "Capuccino-italiano",
@@ -56,7 +56,7 @@ var MENU = {
       img: "./img/cardapio/cappuccinos/cappuccino-nutella.png",
       name: "Cappuccino nutella",
       dsc: "(220ml) Cappucino tradicional com adicional de Nutella, deixando o ainda mais saboroso",
-      price: 19.0,
+      price: 20.0,
     },
   ],
   "chocolate quente": [
@@ -81,21 +81,21 @@ var MENU = {
       img: "./img/cardapio/bebidas geladas/Cappuccino-Gelado.png",
       name: "Cappuccino Gelado",
       dsc: "(200ml) Uma bebida deliciosa adoçada a base de café, leite em pó, cacau 50% que traz uma nota sutil de chocolate, a canela deixando um toque de especiarias, envolvido ao leite integral e um delicioso sorvete de creme deixando seu sabor, textura aveludada e com muita cremosidade. Coberto por uma leve e doce cobertura do creme do chantilly da casa.",
-      price: 18.0,
+      price: 19.0,
     },
     {
       id: "Frapê",
       img: "./img/cardapio/bebidas geladas/Frapê.png",
       name: "Frapê",
       dsc: "(250ml) Criado com uma mistura única de ingredientes de alta qualidade, frutas in natura (morango, amora e frutas vermelhas), leite integral, leite condensado e sorvete trazendo uma textura cremosa e sabor irresistível. Uma taça decorada com calda e com cobertura do creme de chantilly da casa. Uma explosão de frescor, doçura e sabor que encanta",
-      price: 26.0,
+      price: 27.0,
     },
     {
       id: "Soda-italiana",
       img: "./img/cardapio/bebidas geladas/Soda-italiana.png",
       name: "Soda italiana",
       dsc: "(350ml) A soda italiana é uma bebida refrescante, visualmente atraente levemente doce e aromática, que combina água gaseificada com xarope e gelo. Sabores, morango, frutas vermelhas, tangerina, limão siciliano e maça verde.",
-      price: 18.0,
+      price: 19.0,
     },
   ],
   toasts: [
@@ -162,21 +162,21 @@ var MENU = {
       img: "./img/cardapio/salgados/bolinho.png",
       name: "Bolinhos de bacalhau",
       dsc: "(3 unidades) Bacalhau desfiado com um toque leve de purê de batatas com o coentro e tem como acompanhamento azeite, pimenta e geleia de pimenta.",
-      price: 22.0,
+      price: 24.0,
     },
     {
       id: "Porção-de-canudinho",
       img: "./img/cardapio/salgados/Porção-de-canudinho.png",
       name: "Canudinho artesanal",
       dsc: "(6 unidades) Nossos canudinhos, preparados com uma massa leve e bem sequinhos, são perfeitos para os acompanhamentos como patê de frango, doce de leite e Nutella.",
-      price: 12.0,
+      price: 13.0,
     },
     {
       id: "Quibe-artesanal",
       img: "./img/cardapio/salgados/Quibe-artesanal.png",
       name: "Quibe artesanal",
       dsc: "O preparo do quibe, consiste na mistura do triguilho com a carne moída, regado com especiarias aromáticas, o alho, cebola e muita hortelã. Assado no azeite e servido com o delicioso molho cítrico a base de iogurte natural, azeite extravirgem e hortelã.",
-      price: 15.0,
+      price: 15.5,
     },
   ],
   tapiocas: [
@@ -201,7 +201,7 @@ var MENU = {
       img: "./img/cardapio/tortas/Banoffee.png",
       name: "Banoffee",
       dsc: "(Fatia) A torta é feita com uma deliciosa massa crocante de biscoito, camada generosa de doce de leite cremoso da casa e bananas in natura cobertos com um levíssimo à base de creme e leite condensado, e finalizado com um delicado toque aveludado de canela.",
-      price: 22.0,
+      price: 23.0,
     },
     {
       id: "Torta-de-limao",
@@ -215,7 +215,7 @@ var MENU = {
       img: "./img/cardapio/tortas/tortaholandesa.png",
       name: "Torta holandesa",
       dsc: "(Fatia) Essa torta une a crocância da massa de biscoito à suavidade do creme espesso à base de creme e leite condensado, finalizada com uma deliciosa cobertura de ganache e biscoitos com chocolate.",
-      price: 23.0,
+      price: 24.0,
     },
     {
       id: "Tortamaracuja",
@@ -238,7 +238,7 @@ var MENU = {
       img: "./img/cardapio/bolos/bolo-de-ninho.jpg",
       name: "Ninho com morango",
       dsc: "(Fatia) Uma combinação deliciosa, este bolo é feito com uma massa macia e fofinha, recheado com um saboroso creme de ninho e um cremoso couli de morangos. É coberto por uma deliciosa camada quatro leites.",
-      price: 24.0,
+      price: 25.0,
     },
     {
       id: "Red-Velvet",
@@ -254,7 +254,7 @@ var MENU = {
       img: "./img/cardapio/Doces/Brownie-com-sorvete.png",
       name: "Brownie com sorvete",
       dsc: "O nosso brownie é uma massa cremosa, densa e rica em chocolate. É aquecido e servido quente com uma ganache de chocolate artesanal e uma deliciosa bola de sorvete.",
-      price: 25.0,
+      price: 26.0,
     },
     {
       id: "Porção-mini-churros",
@@ -275,14 +275,14 @@ var MENU = {
       img: "./img/cardapio/Doces/palha-italiana2.png",
       name: "Palha Italiana",
       dsc: "A palha italiana idealizada para os apaixonados por chocolate que buscam uma experiência gustativa. É um doce moldado à mão, feito com o nosso delicioso brigadeiro e pedaços de biscoitos.",
-      price: 10.50,
+      price: 11.0,
     },
     {
       id: "docinho",
       img: "./img/cardapio/Doces/docinho2.png",
       name: "Brigadeiro",
       dsc: "(36g) É um brigadeiro diferenciado, feito com leite condensado, creme de leite e cacau 50%. Um doce macio, redondo coberto por uma camada de um saboroso granulado ao leite.",
-      price: 5.0,
+      price: 5.5,
     },
   ],
 
@@ -322,7 +322,7 @@ var MENU = {
       img: "./img/cardapio/caldos/camaraoint.png",
       name: "Camarão internacional",
       dsc: "(500g) Camarões salteados no azeite e manteiga, envolvidos em um cremoso arroz feito no leve molho de requeijão com ervilhas, presunto, queijo e coberto com batata palha e queijo.",
-      price: 49.0,
+      price: 51.0,
     },
   ],
 };
