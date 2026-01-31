@@ -155,7 +155,7 @@ var MENU = {
       img: "./img/cardapio/salgados/Empadao-de-Frango.png",
       name: "Empadão de Frango",
       dsc: "(Fatia) O clássico empadão é feito com uma massa leve que derrete na boca e um delicioso recheio de frango com especiarias como alho, cebola e açafrão coberto de uma generosa camada de requeijão cremoso",
-      price: 17.0,
+      price: 18.0,
     },
     {
       id: "Bolinhos-de-bacalhau",
