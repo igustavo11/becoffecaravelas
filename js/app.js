@@ -39,7 +39,7 @@ cardapio.metodos = {
         let infoTapioca = `<div class="col-12 mb-4">
           <div class="card-info-categoria">
             <h5><i class="fas fa-magic"></i> Monte do Seu Jeito!</h5>
-            <p><strong>Tapiocas e Crepiocas:</strong> 1 recheio = R$ 16,00 | 2 recheios = R$ 18,00 | 3 recheios = R$ 21,00</p>
+            <p><strong>Tapiocas e Crepiocas:</strong> 1 recheio = R$ 16,00 | 2 recheios = R$ 19,00 | 3 recheios = R$ 22,00</p>
             <p class="acrescimo"><em>Acréscimo de R$ 3,00 por recheio adicional</em></p>
           </div>
         </div>`;
