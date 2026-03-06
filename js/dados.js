@@ -5,21 +5,21 @@ var MENU = {
       img: "./img/cardapio/cafe/Prensa-Francesa.png",
       name: "Prensa Francesa",
       dsc: "(180ml)  Em uma cafeteira manual é preparado um delicioso café por infusão, mantendo os grãos do café moídos na hora em contato com a água quente traz o resultado mais encorpado, aromático e um sabor mais acentuado",
-      price: 14.0,
+      price: 16.0,
     },
     {
       id: "coado",
       img: "./img/cardapio/cafe/coado.png",
       name: "Coado",
       dsc: "(180ml) O café coado é uma bebida sem açúcar, suave e equilibrada que envolve a filtragem de água (mineral) quente através dos grãos de café moídos na hora. É servido em uma xícara de porcelana arredondada, acompanhada de um suporte em alumínio e um coador de tecido permitindo você apreciar o aroma e a cor marrom do nosso café.",
-      price: 9.0,
+      price: 10.0,
     },
     {
       id: "Expresso",
       img: "./img/cardapio/cafe/expresso.png",
       name: "Expresso",
       dsc: "(50ml) Café encorpado com uma crema dourada e de sabor intenso, perfeito para os amantes de um bom expresso.",
-      price: 11.0,
+      price: 13.0,
     },
   ],
   cappuccinos: [
@@ -49,7 +49,7 @@ var MENU = {
       img: "./img/cardapio/cappuccinos/cappuccino-italiano.png",
       name: "Cappuccino italiano",
       dsc: "(220ml) Uma combinação equilibrada de café expresso com o leite vaporizado obtemos uma textura suave e cremosa que traz uma sensação aveludada à bebida. Finalizado com cacau e canela. ",
-      price: 13.0,
+      price: 14.0,
     },
     {
       id: "Capuccino-nutella",
@@ -306,7 +306,7 @@ var MENU = {
       img: "./img/cardapio/bebidas/Refrigerante-latas.png",
       name: "Refrigerante",
       dsc: "(lata) unidade",
-      price: 6.5,
+      price: 7.0,
     },
     {
       id: "suco",
