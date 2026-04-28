@@ -65,7 +65,7 @@ var MENU = {
       img: "./img/cardapio/chocolate quente/Chocolate-Quente.png",
       name: "Chocolate Quente Cremoso",
       dsc: "(200ml) Você está prestes a se render a uma experiência irresistível e reconfortante, o delicioso Chocolate Quente Cremoso feito com leite integral, creme de leite, açúcar e cacau 50%. Coberto de um creme de chantilly da casa. Perfeito para dias frios e para os momentos de relaxamento.",
-      price: 19.0,
+      price: 20.0,
     },
     {
       id: "chocolate-becoffe",
@@ -81,7 +81,7 @@ var MENU = {
       img: "./img/cardapio/bebidas geladas/Cappuccino-Gelado.png",
       name: "Cappuccino Gelado",
       dsc: "(200ml) Uma bebida deliciosa adoçada a base de café, leite em pó, cacau 50% que traz uma nota sutil de chocolate, a canela deixando um toque de especiarias, envolvido ao leite integral e um delicioso sorvete de creme deixando seu sabor, textura aveludada e com muita cremosidade. Coberto por uma leve e doce cobertura do creme do chantilly da casa.",
-      price: 20.0,
+      price: 21.0,
     },
     {
       id: "Frapê",
@@ -111,14 +111,14 @@ var MENU = {
       img: "./img/cardapio/toasts/queijo.png",
       name: "Pão na chapa com queijo especial",
       dsc: "Aquela manteiga que derrete e deixa um sabor todo especial, combinando com o pão de casca rústica, fatias mais grossas e incrivelmente macio com adicional de queijo minas derretido proporcionando mais sabor ao pão",
-      price: 12.0,
+      price: 12.5,
     },
     {
       id: "toasts-ovo",
       img: "./img/cardapio/toasts/toastsovos.png",
       name: "Pão na chapa com ovos mexidos e bacon",
       dsc: "Aquela manteiga que derrete e deixa um sabor todo especial, combinando com o pão de casca rústica, fatias mais grossas e incrivelmente macio com adicional de ovo e cubinhos de bacon frito  proporcionando mais sabor ao pão",
-      price: 15.0,
+      price: 15.5,
     },
     {
       id: "paodequeijo",
@@ -155,21 +155,21 @@ var MENU = {
       img: "./img/cardapio/salgados/Empadao-de-Frango.png",
       name: "Empadão de Frango",
       dsc: "(Fatia) O clássico empadão é feito com uma massa leve que derrete na boca e um delicioso recheio de frango com especiarias como alho, cebola e açafrão coberto de uma generosa camada de requeijão cremoso",
-      price: 18.0,
+      price: 18.5,
     },
     {
       id: "Bolinhos-de-bacalhau",
       img: "./img/cardapio/salgados/bolinho.png",
       name: "Bolinhos de bacalhau",
       dsc: "(3 unidades) Bacalhau desfiado com um toque leve de purê de batatas com o coentro e tem como acompanhamento azeite, pimenta e geleia de pimenta.",
-      price: 25.0,
+      price: 26.0,
     },
     {
       id: "Porção-de-canudinho",
       img: "./img/cardapio/salgados/Porção-de-canudinho.png",
       name: "Canudinho artesanal",
       dsc: "(6 unidades) Nossos canudinhos, preparados com uma massa leve e bem sequinhos, são perfeitos para os acompanhamentos como patê de frango, doce de leite e Nutella.",
-      price: 13.0,
+      price: 14.0,
     },
     {
       id: "Quibe-artesanal",
@@ -201,14 +201,14 @@ var MENU = {
       img: "./img/cardapio/tortas/Banoffee.png",
       name: "Banoffee",
       dsc: "(Fatia) A torta é feita com uma deliciosa massa crocante de biscoito, camada generosa de doce de leite cremoso da casa e bananas in natura cobertos com um levíssimo à base de creme e leite condensado, e finalizado com um delicado toque aveludado de canela.",
-      price: 23.0,
+      price: 24.0,
     },
     {
       id: "Torta-de-limao",
       img: "./img/cardapio/tortas/Torta-de-limao.png",
       name: "Torta de limão",
       dsc: "(Fatia)Deliciosa massa crocante de biscoito com um mousse de limão que derrete na boca com um gostinho cítrico e coberto por uma generosa camada de creme, leite condensado e leite em pó. Essa torta de leveza e frescor é uma explosão de sabor combinado com uma delicada decoração de raspas de limão.",
-      price: 22.0,
+      price: 23.0,
     },
     {
       id: "Torta-holandesa",
@@ -222,7 +222,7 @@ var MENU = {
       img: "./img/cardapio/tortas/tortamaracuja.png",
       name: "Torta de maracujá",
       dsc: "(Fatia) Uma crocante massa de biscoitos com um delicioso creme de maracujá coberto por uma generosa camada de creme, leite condensado e leite em pó. E uma camada refrescante e tropical de geleia de maracujá in natura.",
-      price: 23.0,
+      price: 24.0,
     },
   ],
   bolos: [
@@ -231,7 +231,7 @@ var MENU = {
       img: "./img/cardapio/bolos/Chocolatudo.png",
       name: "Chocolatudo",
       dsc: "(Fatia) Um bolo leve e úmido preparado com cacau 50% e recheio generoso de brigadeiro e uma ganache de creme e chocolate, finalizado com uma deliciosa ganache de chocolate.",
-      price: 26.0,
+      price: 27.0,
     },
     {
       id: "Ninho-com-morango",
@@ -261,7 +261,7 @@ var MENU = {
       img: "./img/cardapio/Doces/Porção-mini-churros.png",
       name: "Porção mini churros",
       dsc: "(15 unidades) Nosso delicioso mini churro de massa artesanal bem sequinho coberto de açúcar e canela acompanhado do Doce de leite da casa e Nutella.",
-      price: 24.0,
+      price: 25.0,
     },
     {
       id: "banana-real",
@@ -275,7 +275,7 @@ var MENU = {
       img: "./img/cardapio/Doces/palha-italiana2.png",
       name: "Palha Italiana",
       dsc: "A palha italiana idealizada para os apaixonados por chocolate que buscam uma experiência gustativa. É um doce moldado à mão, feito com o nosso delicioso brigadeiro e pedaços de biscoitos.",
-      price: 12.0,
+      price: 13.0,
     },
     {
       id: "docinho",
@@ -322,7 +322,7 @@ var MENU = {
       img: "./img/cardapio/caldos/camaraoint.png",
       name: "Camarão internacional",
       dsc: "(500g) Camarões salteados no azeite e manteiga, envolvidos em um cremoso arroz feito no leve molho de requeijão com ervilhas, presunto, queijo e coberto com batata palha e queijo.",
-      price: 56.0,
+      price: 58.0,
     },
   ],
 };

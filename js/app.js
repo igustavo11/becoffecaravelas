@@ -33,14 +33,14 @@ cardapio.metodos = {
     if (!vermais) {
       $("#itensCardapio").html("");
       $("#btnVerMais").removeClass("hidden");
-      
+
       // Adicionar informações específicas para certas categorias
       if (categoria === "tapiocas") {
         let infoTapioca = `<div class="col-12 mb-4">
           <div class="card-info-categoria">
             <h5><i class="fas fa-magic"></i> Monte do Seu Jeito!</h5>
-            <p><strong>Tapiocas e Crepiocas:</strong> 1 recheio = R$ 16,00 | 2 recheios = R$ 19,00 | 3 recheios = R$ 22,00</p>
-            <p class="acrescimo"><em>Acréscimo de R$ 3,00 por recheio adicional</em></p>
+            <p><strong>Tapiocas e Crepiocas:</strong> 1 recheio = R$ 16,00 | 2 recheios = R$ 19,50 | 3 recheios = R$ 23,00</p>
+            <p class="acrescimo"><em>Acréscimo de R$ 3,50 por recheio adicional</em></p>
           </div>
         </div>`;
         $("#itensCardapio").append(infoTapioca);
@@ -48,8 +48,8 @@ cardapio.metodos = {
         let infoSalgados = `<div class="col-12 mb-4">
           <div class="card-info-categoria">
             <h5><i class="fas fa-magic"></i> Monte do Seu Jeito!</h5>
-            <p><strong>Cuscuz Recheado:</strong> 1 recheio = R$ 15,00</p>
-            <p class="acrescimo"><em>Acréscimo de R$ 2,00 por recheio adicional</em></p>
+            <p><strong>Cuscuz Recheado:</strong> 1 recheio = R$ 16,00</p>
+            <p class="acrescimo"><em>Acréscimo de R$ 3,00 por recheio adicional</em></p>
           </div>
         </div>`;
         $("#itensCardapio").append(infoSalgados);
@@ -86,8 +86,6 @@ cardapio.metodos = {
 
     // adicionar a classe active à categoria selecionada
     $("#menu-" + categoria).addClass("active");
-
-
   },
 
   // botão Ver Mais
@@ -140,12 +138,10 @@ cardapio.metodos = {
       }, 800);
     }, tempo);
   },
-
-
 };
 
 cardapio.templates = {
-  item: ` 
+  item: `
           <div class="col-12 col-lg-3 col-md-3 col-sm-6 mb-5 animated fadeInUp">
           <div class="card card-item" id="\${id}" data-description="\${dsc}">
               <div class="img-produto">
