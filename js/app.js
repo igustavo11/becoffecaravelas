@@ -48,7 +48,7 @@ cardapio.metodos = {
         let infoSalgados = `<div class="col-12 mb-4">
           <div class="card-info-categoria">
             <h5><i class="fas fa-magic"></i> Monte do Seu Jeito!</h5>
-            <p><strong>Cuscuz Recheado:</strong> 1 recheio = R$ 16,00</p>
+            <p><strong>Cuscuz Recheado:</strong> 1 recheio = R$ 15,00</p>
             <p class="acrescimo"><em>Acréscimo de R$ 3,00 por recheio adicional</em></p>
           </div>
         </div>`;
